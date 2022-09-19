@@ -11,14 +11,22 @@ const Blogpage = () => {
     }, []);
     return (
         <div>
-            <h1>Blogpage</h1>
-            {
-                posts.map(post => (
-                    <Link key={post.id} to={`/posts/${post.id}`}>
-                        <li>{post.title}</li>
-                    </Link>
-                ))
-            }
+        <h1>Blogpage</h1>
+
+
+                    {
+                        posts.map(post => (
+                            <Link key={post.id} to={`/posts/${post.id}`}>
+                                <div class='grid'>
+                                    <div>
+                                    <li>{post.title}</li>
+                                    </div>
+                                </div>
+                            </Link>
+                        ))
+                    }
+
+
         </div>
     )
 }
