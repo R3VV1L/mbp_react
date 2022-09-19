@@ -37,14 +37,14 @@ footer {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 5rem;
-  margin: 5rem;
+  margin: 2rem;
 }
 
 .grid > div{
   color: rgb(212, 212, 212);
   background: #3b3b3b;
-  padding: 5rem;
+  padding: 1rem;
   border-radius: 1rem;
 }
