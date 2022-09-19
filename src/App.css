@@ -34,3 +34,15 @@ footer {
   padding: 20px;
   font-family:'Gill Sans Extrabold', sans-serif;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.grid > div{
+  color: rgb(212, 212, 212);
+  background: #3b3b3b;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
