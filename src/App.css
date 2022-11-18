@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #242424;
+  background-color: #8b8b8b;
 }
 
 h1 {
@@ -28,6 +28,7 @@ footer {
   font-size: calc(10px + 2vmin);
   color: white;
   opacity: 0.75;
+  box-shadow: 5px 5px 50px rgb(22, 22, 22);
 }
 
 .textHeader {
@@ -37,15 +38,9 @@ footer {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1rem;
+    gap: 1rem;
   margin: 2rem;
-  column-gap: 50px;
 }
-
-.grid > div{
-  color: rgb(212, 212, 212);
-  background: #3b3b3b;
-  padding: 1rem;
-  border-radius: 1rem;
+.item1 {
+  grid-column: 1/2;
 }
